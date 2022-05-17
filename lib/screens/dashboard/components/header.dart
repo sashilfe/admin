@@ -64,9 +64,9 @@ class _HeaderState extends State<Header> {
           padding: EdgeInsets.only(left: 10.0, right: 10.0),
           color: Color(0xFFDFE0EB),
         ),
-        ProfileCard(
-          userProvider: userProvider,
-        )
+        //ProfileCard(
+        //  userProvider: userProvider,
+        //)
       ],
     );
   }
