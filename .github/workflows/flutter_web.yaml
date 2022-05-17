@@ -30,7 +30,7 @@ jobs:
           git config --global user.email oluas2012@gmail.com
           git config --global user.name sashilfe
           git status
-          git remote add origin https://${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}@github.com/sashilfe/sashilfe.github.io.git
+          git remote add origin https://${{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}}@github.com/sashilfe/sashilfe.github.io.git
           git checkout -b gh-pages
           git add --all
           git commit -m "update"
